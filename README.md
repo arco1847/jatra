@@ -34,10 +34,10 @@ JATRA is a web-based vehicle renting platform designed to provide long-route ren
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend**: HTML, CSS, JavaScript, React.js, Bootstrap/Tailwind CSS  
-- **Backend**: Node.js, Express.js  
-- **Database**: MySQL (optimized with indexing & query tuning)  
-- **Testing**: Unit Testing, Integration Testing, System Testing, UAT, Security Testing  
+- **Frontend**: HTML, CSS, JavaScript 
+- **Backend**: PHP
+- **Database**: MySQL 
+- **Testing**: Unit Testing, Integration Testing, System Testing, Security Testing  
 - **Version Control**: Git, GitHub  
 
 ---
@@ -48,20 +48,6 @@ JATRA is a web-based vehicle renting platform designed to provide long-route ren
 - **System Testing**: Validated against defined requirements.  
 - **UAT**: Tested with real users for usability feedback.  
 - **Security Testing**: Checked for vulnerabilities in authentication, input validation, and payment security.  
-
----
-
-## ⚡ Challenges & Solutions
-- **Database Performance**: Solved with indexing and query optimization.  
-- **User Experience**: Improved through iterative feedback and redesigns.  
-- **Security Concerns**: Implemented HTTPS, encryption, and secure authentication practices.  
-
----
-
-## 📊 Results
-- Delivered a competitive and reliable vehicle rental platform.  
-- Ensured smooth user experience, scalability, and 24/7 security.  
-- Provided foundation for future enhancements like AI-driven recommendations, PWA/mobile app support, and blockchain-based payment verification.  
 
 ---
 
