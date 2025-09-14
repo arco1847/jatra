@@ -1,1 +1,1 @@
-# jatra
+# jatra : A Vehicle Renting System
