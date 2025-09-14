@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin_home.css">
+    <link rel="stylesheet" href="admin_home2.css">
+    <title>Vehicle Rental System</title>
+    <style>
+        /* Navigation bar styles */
+        .topnav {
+            background-color: black;
+            overflow: hidden;
+        }
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        /* Link styles */
+        a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover, a:active {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>JATRA.com</h1>
+        </div>
+    </header>
+    
+    <!-- Navigation bar -->
+    <div class="topnav">
+        <a href="admin_home.html">Home</a>
+        <a href="">All vehicles</a>
+        <a href="admin_panel.php">Garage</a>
+    </div>
+    
+    <!-- Vehicle categories -->
+    <h2>Vehicle Categories</h2>
+    <div>
+        <a href='car.php'>Car</a>
+        <a href='microbus.php'>Microbus</a>
+        <a href='bus.php'>Bus</a>
+        <a href='truck.php'>Truck</a>
+        <a href='locat.php'>Location</a>
+    </div>
+    
+    <!-- Order lists -->
+    <h2>Order Lists</h2>
+    <div>
+        <a href='orderlist_of_car.php'>Car Orderlist</a>
+        <a href='orderlist_of_mirco.php'>Microbus Orderlist</a>
+        <a href='orderlist_of_bus.php'>Bus Orderlist</a>
+        <a href='orderlist_of_truck.php'>Truck Orderlist</a>
+        <a href='orderlist_of_package.php'>Package Orderlist</a>
+    </div>
+    
+    <!-- Customer details -->
+    <h2>Customer Details</h2>
+    <div>
+        <a href='customer_details_b.php'>Customer Details(Bus)</a>
+        <a href='customer_details_c.php'>Customer Details(Car)</a>
+        <a href='customer_details_m.php'>Customer Details(Micro-bus)</a>
+        <a href='customer_details_t.php'>Customer Details(Truck)</a>
+        <a href='customer_details_e.php'>Customer Details(Else)</a>
+    </div>
+    
+    <!-- Packages -->
+    <h2>Packages</h2>
+    <div>
+        <a href='packages.php'>Packages</a>
+    </div>
+</body>
+</html>
